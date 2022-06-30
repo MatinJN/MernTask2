@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    .left{
+        text-align: start;
+        margin: 10rem 0 0 13rem;
+        span{
+            color: #96ae00;
+            font-weight: 700;
+        }
+        h2{
+            font-size: 65px;
+            color: #2d2a6e;
+            margin: 25px 0;
+        }
+        p{
+            color: #4d5574;
+            font-size: 18px;
+        }
+        a{
+            background-color: #96ae00;
+            padding: 15px 50px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: #fff;
+            margin-top: 20px;
+            display: inline-block;
+        }
+    }
+    .right{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+
+#second{
+    .foto{
+        img{
+            width: 100%;
+        }
+    }
+    .text{
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: #2d2a6e;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 15px 0;
+            display: inline-block;
+        }
+    }
+    border-bottom: #2d2a6e;
+}
+
+#third{
+    text-align: center;
+    margin-top: 2rem;
+    .text-top{
+        span{
+            color: #96ae00;
+            font-weight: 600;
+        }
+        h3{
+            margin: 20px 0;
+        }
+    }
+    .text-bottom{
+        a{
+            text-decoration: none;
+            margin: 0 40px;
+            color: #4d5574;
+            font-weight: 600;
+            &:hover{
+                color: #96ae00;
+            }   
+        }
+    }
+    .all{
+        display: flex;
+        justify-content: space-between;
+        .box{
+            width: 12%;
+            border: 1px solid #cfced9fc;
+            border-radius: 7px;
+            margin-top: 25px;
+            .top{
+                img{
+                    width: 100%;
+                }
+            }
+            .bottom{
+                text-align: start;
+                a{
+                    text-decoration: none;
+                    color: #4d5574;
+                    font-weight: 600;
+                    &:hover{
+                        color: #96ae00;
+                    }   
+                }
+                i{
+                    color: rgb(226, 156, 25);
+                    margin: 10px 0;
+                    padding: 5px 0;
+                }
+                h6{
+                    color: rgb(255, 3, 3);
+                }
+            }
+        }
+    }
+}
